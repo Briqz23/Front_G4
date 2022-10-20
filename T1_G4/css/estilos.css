@@ -1,14 +1,50 @@
-.logo_guitarra{
-    height:100px;
+
+.cabecalho{
+    border: 2px solid black;
 }
-h1{
-    font-size: 100%;
-    font-style: bold;
+
+.logo_guitarra{
+    height: 100px;
+}
+#titulo_0{
+    margin-right: 150px;
+    
+}
+#titulo_1{
+    margin-left: 250px;
+    margin-right: 100px;
+}
+#titulo_2{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#titulo_3{
+    margin-left: 100px;
+    margin-right: 200px;
+}
+#titulo_4{
+    margin-left: 200px;
 }
 .titulo_loja,.links_extras,.links_cadastro{
     display:inline-block;
 }
 #titulo_1,#titulo_2,#titulo_3,#titulo_4{
+    display: inline-block;
+}
+
+.titulo_pagina{
+    text-align: center;
+    border: 2px solid black;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.foto_guitarra{
+    height: 350px;
+    width: 350px;
+}
+.footer1,.footer2{
     display: inline-block;
 }
 
