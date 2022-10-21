@@ -1,35 +1,23 @@
 
 .cabecalho{
     border: 2px solid black;
+     
 }
 
-.logo_guitarra{
-    height: 100px;
+#logo_guitarra{
+    margin: 10px;   
 }
-#titulo_0{
-    margin-right: 150px;
-    
+
+.itens_nav{
+    margin-left: 70%;
 }
-#titulo_1{
-    margin-left: 250px;
-    margin-right: 100px;
+.cat{
+    padding-left: 30px;
 }
-#titulo_2{
-    margin-left: 100px;
-    margin-right: 100px;
-}
-#titulo_3{
-    margin-left: 100px;
-    margin-right: 200px;
-}
-#titulo_4{
-    margin-left: 200px;
-}
-.titulo_loja,.links_extras,.links_cadastro{
-    display:inline-block;
-}
-#titulo_1,#titulo_2,#titulo_3,#titulo_4{
-    display: inline-block;
+
+.texto_intro{
+    margin-top: 25px;
+    text-align: center;
 }
 
 .titulo_pagina{
