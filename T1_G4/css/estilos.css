@@ -14,9 +14,16 @@
 
 .texto_intro{
     margin-top: 25px;
+    margin-bottom:25px;
     text-align: center;
 }
 
+article{
+    border: 2px solid black;
+    margin: auto;
+    border-radius: 10%;
+    width: 30%;
+}
 .titulo_pagina{
     text-align: center;
     border: 2px solid black;
@@ -26,8 +33,8 @@
     margin-top: 50px;
 }
 .foto_guitarra{
-    height: 350px;
-    width: 350px;
+    height: 175px;
+    width: 175px;
 }
 .footer1,.footer2{
     display: inline-block;
