@@ -18,12 +18,6 @@
     text-align: center;
 }
 
-article{
-    border: 2px solid black;
-    margin: auto;
-    border-radius: 10%;
-    width: 30%;
-}
 .titulo_pagina{
     text-align: center;
     border: 2px solid black;
@@ -32,11 +26,51 @@ article{
     margin-bottom: 100px;
     margin-top: 50px;
 }
+article{
+    border: 1px solid black;
+    margin: auto;
+    
+}
+
+/* @media(max-width: 576px){
+    article{
+        width: 300px;
+        margin-bottom: 20px;
+        border: 3px blue solid;
+    }
+}
+
+@media(min-width: 576px){
+    article{
+        width: 50px;
+        margin-bottom: 20px;
+        border: 3px red solid;
+    }
+}
+
+@media(min-width: 768px){
+    article{
+        margin-bottom: 20px;
+        border: 3px green solid;
+        margin: auto;
+        border-radius: 10%;
+        width: 30%;
+    }
+} */
+
 .foto_guitarra{
     height: 175px;
     width: 175px;
 }
-.footer1,.footer2{
-    display: inline-block;
+
+.rodape{ 
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;   /* Height of the footer */
+}
+
+.rodape a{
+    text-align: center;
 }
 
