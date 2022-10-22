@@ -27,7 +27,6 @@
     margin-top: 50px;
 }
 article{
-    border: 1px solid black;
     margin: auto;
     text-align: center;
     
@@ -40,6 +39,7 @@ a.botao{
     color: white;
     background-color: blue;
     display: inline-block;
+    margin-bottom: 5px;
 }
 
 .botao:hover, .botao:focus{
@@ -53,14 +53,14 @@ a.botao{
         margin: auto;
         margin-bottom: 20px;
         border: 3px red solid;
-        width: 30%;
         border-radius: 10%;
         
     }
     article img{
-        width: auto;
-        height: 80%;
+        width: 80%;
+        height: 70%;
     }
+
 }
 
 @media(min-width: 768px){
@@ -69,11 +69,10 @@ a.botao{
         margin: auto;
         margin-bottom: 20px;
         border-radius: 10%;
-        width: 30%;
     }
     article img{
-        width: auto;
-        height: 80%;
+        width: 80%;
+        height: 60%;
     }
 }
 
@@ -83,25 +82,22 @@ a.botao{
         border: 3px blue solid;
         margin: auto;
         border-radius: 10%;
-        width: 30%;
     }
     article img{
-        width: auto;
-        height: 80%;
+        width: 90%;
+        height: 90%;
         
     }
 }
 
 
-
-.rodape{ 
-    position:absolute;
-    bottom:0;
-    width:100%;
-    height:60px;   /* Height of the footer */
+.f1{
+    text-align: center;   
+}
+.f1 a{
+    margin-left: auto;
+    
 }
 
-.rodape a{
-    text-align: center;
-}
+
 
