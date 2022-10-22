@@ -50,10 +50,10 @@ a.botao{
 
 @media(max-width: 768px){
     article{
-        margin: auto;
         margin-bottom: 20px;
         border: 3px red solid;
         border-radius: 10%;
+        
         
     }
     article img{
@@ -66,7 +66,6 @@ a.botao{
 @media(min-width: 768px){
     article{
         border: 3px green solid;
-        margin: auto;
         margin-bottom: 20px;
         border-radius: 10%;
     }
@@ -82,6 +81,7 @@ a.botao{
         border: 3px blue solid;
         margin: auto;
         border-radius: 10%;
+        
     }
     article img{
         width: 90%;
@@ -91,12 +91,9 @@ a.botao{
 }
 
 
-.f1{
-    text-align: center;   
-}
-.f1 a{
-    margin-left: auto;
-    
+footer a{
+    margin: auto;
+    text-align: center;
 }
 
 
