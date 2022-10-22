@@ -29,8 +29,18 @@
 article{
     border: 1px solid black;
     margin: auto;
+    text-align: center;
     
 }
+
+article a{
+    font-size: 75%;
+    border: 1px solid blue;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+}
+
 
 /* @media(max-width: 576px){
     article{
@@ -57,11 +67,6 @@ article{
         width: 30%;
     }
 } */
-
-.foto_guitarra{
-    height: 175px;
-    width: 175px;
-}
 
 .rodape{ 
     position:absolute;
