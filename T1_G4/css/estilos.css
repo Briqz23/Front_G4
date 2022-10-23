@@ -91,14 +91,15 @@ article{
         width: 80%;
         height: 60%;
     }
+    .f2{
+        border-top:1px solid white;
+    }
 }
 
 @media(min-width: 992px){
     article{
-        margin-bottom: 20px;
         margin: auto;
         border-radius: 10%;
-        
     }
     article img{
         width: 90%;
@@ -107,6 +108,10 @@ article{
     }
 }
 
+
+footer{
+    margin-top: 300px;
+}
 
 footer a{
     margin: auto;
