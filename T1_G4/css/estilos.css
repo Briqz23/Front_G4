@@ -1,7 +1,10 @@
 
+body{
+    background-color: #EDF1F6;
+}
+
 .cabecalho{
-    border: 2px solid black;
-     
+    border-bottom: 2px solid black;  
 }
 
 #logo_guitarra{
@@ -9,18 +12,26 @@
 }
 
 .cat{
-    padding-left: 30px;
+    padding-left: 30px;  
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #aaadb2;
+    outline: none;   
 }
 
 .texto_intro{
     margin-top: 25px;
-    margin-bottom:25px;
+    margin-bottom:50px;
     text-align: center;
 }
 
 .titulo_pagina{
     text-align: center;
-    border: 2px solid black;
     width: 40%;
     margin: auto;
     margin-bottom: 100px;
@@ -29,32 +40,40 @@
 article{
     margin: auto;
     text-align: center;
-    
+    background-color: white;
+    padding-bottom: 15px;   
 }
 
 a.botao{
-    font-size: 75%;
-    border: 1px solid blue;
+    font-size: 90%;
+    border: 1px solid #0D6EFD;
     text-decoration: none;
     color: white;
-    background-color: blue;
-    display: inline-block;
+    background-color: #0D6EFD;
+    display: block;
     margin-bottom: 5px;
+    border-radius: 10px;
+    margin-left: 3%;
 }
 
 .botao:hover, .botao:focus{
     background-color: #0D47A1;
-    outline: none;
-    
+    outline: none;   
+}
+
+
+article{
+    border: 3px solid #0D6EFD;
+}
+
+.foto_guitarra{
+    margin-bottom: 5px;
 }
 
 @media(max-width: 768px){
     article{
         margin-bottom: 20px;
-        border: 3px red solid;
         border-radius: 10%;
-        
-        
     }
     article img{
         width: 80%;
@@ -65,7 +84,6 @@ a.botao{
 
 @media(min-width: 768px){
     article{
-        border: 3px green solid;
         margin-bottom: 20px;
         border-radius: 10%;
     }
@@ -78,7 +96,6 @@ a.botao{
 @media(min-width: 992px){
     article{
         margin-bottom: 20px;
-        border: 3px blue solid;
         margin: auto;
         border-radius: 10%;
         
@@ -90,9 +107,10 @@ a.botao{
     }
 }
 
+
 footer a{
     margin: auto;
-    text-align: center;  
+    text-align: center;
 }
 
 
