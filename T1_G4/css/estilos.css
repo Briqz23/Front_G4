@@ -41,7 +41,10 @@ article{
     margin: auto;
     text-align: center;
     background-color: white;   
+    
 }
+
+
 
 a.botao{
     font-size: 90%;
@@ -71,8 +74,9 @@ article{
 
 @media(max-width: 768px){
     article{
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         border-radius: 10%;
+        padding-bottom: 20px;
     }
     article img{
         width: 80%;
@@ -85,6 +89,7 @@ article{
     article{
         margin-bottom: 20px;
         border-radius: 10%;
+        padding-bottom: 5px;
     }
     article img{
         width: 80%;
@@ -98,8 +103,7 @@ article{
 @media(min-width: 1200px){
     article{
         border-radius: 10%;
-        padding-bottom: 60px; 
-
+        padding-bottom: 60px;
     }
     article img{
         width: 90%;
