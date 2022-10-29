@@ -40,8 +40,7 @@ a:hover{
 article{
     margin: auto;
     text-align: center;
-    background-color: white;
-    padding-bottom: 15px;   
+    background-color: white;   
 }
 
 a.botao{
@@ -92,26 +91,26 @@ article{
         height: 60%;
     }
     .f2{
-        border-top:1px solid white;
+        border-top: 1px solid white;
     }
 }
 
-@media(min-width: 992px){
+@media(min-width: 1200px){
     article{
-        margin: auto;
         border-radius: 10%;
+        padding-bottom: 60px; 
+
     }
     article img{
         width: 90%;
-        height: 90%;
-        
+        height: 70%;
     }
 }
 
 
-footer{
-    margin-top: 300px;
-}
+/* footer{
+    bottom: 80px;
+} */
 
 footer a{
     margin: auto;
