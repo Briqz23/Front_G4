@@ -40,7 +40,7 @@ a:hover{
 article{
     margin: auto;
     text-align: center;
-    background-color: white;   
+    border-radius: 10px; 
     
 }
 
@@ -64,9 +64,7 @@ a.botao{
 }
 
 
-article{
-    border: 3px solid #0D6EFD;
-}
+
 
 .foto_guitarra{
     margin-bottom: 5px;
