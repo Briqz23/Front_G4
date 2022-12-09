@@ -1,0 +1,123 @@
+
+body{
+    background-color: #EDF1F6;
+}
+
+.cabecalho{
+    border-bottom: 2px solid black;  
+}
+
+#logo_guitarra{
+    margin: 10px;   
+}
+
+.cat{
+    padding-left: 30px;  
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #aaadb2;
+    outline: none;   
+}
+
+.texto_intro{
+    margin-top: 25px;
+    margin-bottom:50px;
+    text-align: center;
+}
+
+.titulo_pagina{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+article{
+    margin: auto;
+    text-align: center;
+    border-radius: 10px; 
+    
+}
+
+
+
+a.botao{
+    font-size: 90%;
+    border: 1px solid #0D6EFD;
+    text-decoration: none;
+    color: white;
+    background-color: #0D6EFD;
+    display: block;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    margin-left: 3%;
+}
+
+.botao:hover, .botao:focus{
+    background-color: #0D47A1;
+    outline: none;   
+}
+
+
+
+
+.foto_guitarra{
+    margin-bottom: 5px;
+}
+
+@media(max-width: 768px){
+    article{
+        margin-bottom: 40px;
+        border-radius: 10%;
+        padding-bottom: 20px;
+    }
+    article img{
+        width: 80%;
+        height: 70%;
+    }
+
+}
+
+@media(min-width: 768px){
+    article{
+        margin-bottom: 20px;
+        border-radius: 10%;
+        padding-bottom: 5px;
+    }
+    article img{
+        width: 80%;
+        height: 60%;
+    }
+    .f2{
+        border-top: 1px solid white;
+    }
+}
+
+@media(min-width: 1200px){
+    article{
+        border-radius: 10%;
+        padding-bottom: 60px;
+    }
+    article img{
+        width: 90%;
+        height: 70%;
+    }
+}
+
+
+/* footer{
+    bottom: 80px;
+} */
+
+footer a{
+    margin: auto;
+    text-align: center;
+}
+
+
+
